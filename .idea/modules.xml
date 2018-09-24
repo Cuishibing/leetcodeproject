@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/atoi/atoi.iml" filepath="$PROJECT_DIR$/atoi/atoi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/isPalindrome/isPalindrome.iml" filepath="$PROJECT_DIR$/isPalindrome/isPalindrome.iml" />
       <module fileurl="file://$PROJECT_DIR$/longestPalindrome/longestPalindrome.iml" filepath="$PROJECT_DIR$/longestPalindrome/longestPalindrome.iml" />
       <module fileurl="file://$PROJECT_DIR$/reverseint/reverseint.iml" filepath="$PROJECT_DIR$/reverseint/reverseint.iml" />
       <module fileurl="file://$PROJECT_DIR$/zconvert/zconvert.iml" filepath="$PROJECT_DIR$/zconvert/zconvert.iml" />
