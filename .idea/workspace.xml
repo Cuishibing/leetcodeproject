@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="080cf7b7-9f5c-4abd-abe6-0faa119a8b26" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atoi/atoi.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/atoi/src/cui/shibing/Atoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/isPalindrome/isPalindrome.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/isPalindrome/src/cui/shibing/IsPalindromeInt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regexp/regexp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/regexp/src/cui/shibing/RegExp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -16,55 +13,56 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/leetcodeproject$RegExp.ic" NAME="RegExp Coverage Results" MODIFIED="1537975843407" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>cui.shibing.*</FILTER>
+    </SUITE>
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="189" />
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="-171000797">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
+          <entry key="gitignore" value="1" />
+          <entry key="java" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="12" />
+          <entry key="PLAIN_TEXT" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3825" />
+          <entry key="gitignore" value="4" />
+          <entry key="java" value="7596" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3825" />
+          <entry key="JAVA" value="7596" />
+          <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages" />
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/isPalindrome/src/cui/shibing/IsPalindromeInt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="312">
-              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
-              <folding>
-                <element signature="e#96#97#0" expanded="true" />
-                <element signature="e#133#134#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -72,6 +70,12 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>i</find>
+      <find>resultArea</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -84,6 +88,8 @@
         <option value="$PROJECT_DIR$/reverseint/src/cui/shibing/ReverseInt.java" />
         <option value="$PROJECT_DIR$/atoi/src/cui/shibing/Atoi.java" />
         <option value="$PROJECT_DIR$/isPalindrome/src/cui/shibing/IsPalindromeInt.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/regexp/src/cui/shibing/RegExp.java" />
       </list>
     </option>
   </component>
@@ -101,24 +107,24 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="leetcodeproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="isPalindrome" type="462c0819:PsiDirectoryNode" />
+              <item name="regexp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="leetcodeproject" type="b2602c69:ProjectViewProjectNode" />
-              <item name="isPalindrome" type="462c0819:PsiDirectoryNode" />
+              <item name="regexp" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -139,7 +145,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IsPalindromeInt">
+  <component name="RunManager" selected="Application.RegExp">
     <configuration name="Atoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cui.shibing.Atoi" />
       <module name="atoi" />
@@ -166,9 +172,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LongestPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cui.shibing.LongestPalindrome" />
-      <module name="longestPalindrome" />
+    <configuration name="RegExp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cui.shibing.RegExp" />
+      <module name="regexp" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cui.shibing.*" />
@@ -206,19 +212,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LongestPalindrome" />
       <item itemvalue="Application.Zconvert" />
       <item itemvalue="Application.ReverseInt" />
       <item itemvalue="Application.Atoi" />
       <item itemvalue="Application.IsPalindromeInt" />
+      <item itemvalue="Application.RegExp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RegExp" />
         <item itemvalue="Application.IsPalindromeInt" />
         <item itemvalue="Application.Atoi" />
         <item itemvalue="Application.ReverseInt" />
         <item itemvalue="Application.Zconvert" />
-        <item itemvalue="Application.LongestPalindrome" />
       </list>
     </recent_temporary>
   </component>
@@ -237,28 +243,28 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1366" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25378788" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27045456" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39739415" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32899022" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.40065145" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32899022" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.32954547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.4975728" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="right" id="Maven Projects" order="4" />
+      <window_info anchor="right" id="Coverage" order="5" sideWeight="0.50242716" side_tool="true" weight="0.25" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -297,33 +303,63 @@
           <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/regexp/src/cui/shibing/RegExp.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
       <expression>
-        <expression-string>Integer.MAX_VALUE + 1</expression-string>
+        <expression-string>s.charAt(0) == targetChar</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>stringBuilder.reverse().toString()</expression-string>
+        <expression-string>s.charAt(2) == targetChar</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>numRows - lastCol.length()</expression-string>
+        <expression-string>s.charAt(1) == targetChar</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>col.charAt(i)</expression-string>
+        <expression-string>s.charAt(targetIndex) == targetChar</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
       <expression>
-        <expression-string>col.length()</expression-string>
+        <expression-string>s.charAt(++targetIndex) == targetChar</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>targetIndex &lt; s.length()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>targetIndex &lt; s.length()&amp;&amp;s.charAt(++targetIndex) == targetChar</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>s.charAt(++targetIndex)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>targetChar</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
@@ -358,33 +394,41 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="223">
           <caret line="62" column="38" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
-          <folding>
-            <element signature="e#32532#32533#0" expanded="true" />
-            <element signature="e#32566#32567#0" expanded="true" />
-            <element signature="e#35161#35162#0" expanded="true" />
-            <element signature="e#35199#35200#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/atoi/src/cui/shibing/Atoi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="47" column="28" lean-forward="true" selection-start-line="8" selection-start-column="8" selection-end-line="47" selection-end-column="28" />
-          <folding>
-            <element signature="e#85#86#0" expanded="true" />
-            <element signature="e#121#122#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/isPalindrome/src/cui/shibing/IsPalindromeInt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        <state relative-caret-position="408">
+          <caret line="23" column="29" lean-forward="true" selection-start-line="23" selection-start-column="29" selection-end-line="23" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="4" selection-start-column="4" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/atoi/src/cui/shibing/Atoi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="45" column="33" lean-forward="true" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
           <folding>
-            <element signature="e#96#97#0" expanded="true" />
-            <element signature="e#133#134#0" expanded="true" />
+            <element signature="e#85#86#0" expanded="true" />
+            <element signature="e#154#155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regexp/src/cui/shibing/RegExp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="46" column="5" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <element signature="e#87#88#0" expanded="true" />
+            <element signature="e#160#161#0" expanded="true" />
           </folding>
         </state>
       </provider>
