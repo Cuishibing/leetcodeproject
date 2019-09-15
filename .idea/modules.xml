@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/atoi/atoi.iml" filepath="$PROJECT_DIR$/atoi/atoi.iml" />
+      <module fileurl="file://$PROJECT_DIR$/generateParenthesis/generateParenthesis.iml" filepath="$PROJECT_DIR$/generateParenthesis/generateParenthesis.iml" />
       <module fileurl="file://$PROJECT_DIR$/isPalindrome/isPalindrome.iml" filepath="$PROJECT_DIR$/isPalindrome/isPalindrome.iml" />
       <module fileurl="file://$PROJECT_DIR$/longestPalindrome/longestPalindrome.iml" filepath="$PROJECT_DIR$/longestPalindrome/longestPalindrome.iml" />
       <module fileurl="file://$PROJECT_DIR$/regexp/regexp.iml" filepath="$PROJECT_DIR$/regexp/regexp.iml" />
